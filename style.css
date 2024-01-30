@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #404040;
+  }
+  
+  main {
+    width: 889px;
+    height: 742px;
+    margin: 0 auto;
+  }
+  
+  .Section2 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ImgPortada {
+    width: 689px;
+    height: 314px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+  
+  .ImgPerfil {
+    width: 176px;
+    height: 176px;
+    position: absolute;
+    left: 354px;
+    top: 370.22px;
+    transform: rotate(-1.05deg);
+    transform-origin: 0 0;
+    border-radius: 9999px;
+  }
+  
+  .Fondo {
+    width: 689px;
+    height: 202px;
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Rectangle2 {
+    width: 689px;
+    height: 202px;
+    mix-blend-mode: color-burn;
+    background: rgba(241.90, 241.90, 241.90, 0.34);
+  }
+  
+  .HectorDanielAyarachiFuentes {
+    width: 214px;
+    height: 47px;
+    position: absolute;
+    left: 337px;
+    top: 572px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Honk', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px #000000;
+
+  }
+  
