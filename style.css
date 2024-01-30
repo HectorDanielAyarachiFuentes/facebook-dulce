@@ -24,25 +24,48 @@ main {
 }
 
 
-#img-portada {
+/* Estilos para el contenedor de la imagen de portada */
+.portada {
     width: 689px;
     height: 314px;
     position: absolute;
     left: 50%;
     top: 100px;
     transform: translateX(-50%);
+    border-radius: 10px;
+    
+}
+
+/* Estilos específicos para la imagen de portada */
+#img-portada {
+    width: 100%;
+    height: 100%;
     border: 4px solid #fff; /* Borde blanco */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra sutil */
     border-radius: 10px;
 }
 
-#img-perfil {
+/* Estilos para la imagen de perfil */
+.perfil {
     width: 176px;
     height: 176px;
     position: absolute;
     left: 50%;
     top: 370.22px;
     transform: translateX(-50%) rotate(-1.05deg);
+    border-radius: 50%;
+    z-index: 9999;
+    cursor: pointer; /* Cambia el cursor a puntero */
+
+}
+
+/* Estilos específicos para la imagen de perfil */
+#img-perfil {
+    width: 176px;
+    height: 176px;
+    position: absolute;
+    left: 50%;
+    top: 370.22px;
     border-radius: 50%;
     z-index: 9999;
     border: 4px solid #fff; /* Borde blanco */
@@ -53,9 +76,10 @@ main {
     object-fit: cover;
 }
 
+/* Estilos para el fondo */
 .fondo {
     width: 689px;
-    height: 202px; /* Ajustado para coincidir con tu diseño original */
+    height: 202px;
     position: absolute;
     left: 50%;
     top: 440px;
