@@ -23,7 +23,24 @@ main {
     height: 100%;
 }
 
-.ImgPortada {
+
+.portada {
+    width: 689px;
+    height: 314px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%); /* Centrado horizontal */
+    margin: 20px;
+    border: 4px solid #fff; /* Borde blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+  
+#img-portada {
     width: 689px;
     height: 314px;
     position: absolute;
@@ -33,7 +50,24 @@ main {
     margin: 20px;
 }
 
-.ImgPerfil {
+.perfil {
+    width: 176px;
+    height: 176px;
+    position: absolute;
+    left: 50%;
+    top: 370.22px;
+    transform: translateX(-50%) rotate(-1.05deg);
+    border-radius: 50%;
+    z-index: 9999;
+    image-rendering: pixelated; /* Preserva la nitidez de los pixeles */
+  
+    /* Estilos adicionales */
+    border: 4px solid #fff; /* Borde blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+    cursor: pointer; /* Cambia el cursor a puntero */
+  }
+  
+  #img-perfil {
     width: 176px;
     height: 176px;
     position: absolute;
