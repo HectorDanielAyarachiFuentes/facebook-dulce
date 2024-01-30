@@ -48,6 +48,9 @@ main {
     border: 4px solid #fff; /* Borde blanco */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra sutil */
     cursor: pointer; /* Cambia el cursor a puntero */
+
+    /* Mantener la proporción de la imagen */
+    object-fit: cover;
 }
 
 .fondo {
